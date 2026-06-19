@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Build: Santiago Home final ready v6 -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Santiago D. Barrionuevo — PhD in Engineering, graphene R&D specialist focused on process development, 2D materials, cleanroom device integration and advanced characterization." />
+  <meta name="keywords" content="Santiago Barrionuevo, graphene, CVD graphene, graphene quantum dots, twisted bilayer graphene, 2D materials, cleanroom fabrication, EELS, STM, device integration, process engineering" />
+  <meta name="theme-color" content="#071720" />
+  <meta property="og:title" content="Santiago D. Barrionuevo | Graphene Process Engineering & 2D Materials" />
+  <meta property="og:description" content="Portfolio of Santiago D. Barrionuevo: graphene R&D, process development, cleanroom/device integration and advanced characterization." />
+  <meta property="og:image" content="https://drsantiagobarrionuevo.com/assets/santiago-barrionuevo-profile.png" />
+  <meta property="og:url" content="https://drsantiagobarrionuevo.com" />
+  <link rel="canonical" href="https://drsantiagobarrionuevo.com" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="website" />
+  <title>Santiago D. Barrionuevo | Graphene R&D, Process Engineering & 2D Materials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="fieldCanvas" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Santiago D. Barrionuevo home">
+      <img src="assets/santiago-barrionuevo-profile.png" alt="Portrait of Santiago D. Barrionuevo" />
+      <span><strong>Santiago D. Barrionuevo</strong><small>Graphene R&D · Process · Devices</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#profile">Profile</a>
+      <a href="#about">About</a>
+      <a href="#atlas">Research atlas</a>
+      <a href="#experience">Experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="cv.html">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Pioneering graphene-derived nanomaterials for novel electronics applications</p>
+        <h1>Graphene process engineering for 2D materials, advanced metrology and device-ready platforms.</h1>
+        <p class="lead">
+          PhD in Engineering and Electronic Engineer working across CVD graphene, twisted bilayer graphene,
+          graphene/carbon quantum dots, cleanroom workflows, advanced metrology, simulation, AI-assisted analysis and technical reporting.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#atlas">Explore research atlas</a>
+          <a class="btn secondary" href="Santiago_Barrionuevo_CV.pdf" target="_blank" rel="noopener">Download PDF CV</a>
+          <a class="btn tertiary" href="cv.html">Open web CV</a>
+        </div>
+      </div>
+
+      <aside class="identity-card reveal delay-1" aria-label="Profile summary card">
+        <div class="photo-frame">
+          <img src="assets/santiago-barrionuevo-profile.png" alt="Santiago D. Barrionuevo" />
+        </div>
+        <div class="identity-meta">
+          <p class="eyebrow">Current profile</p>
+          <h2>Postdoctoral Researcher</h2>
+          <p>Graphene R&D, process development, 2D materials, cleanroom fabrication and advanced characterization.</p>
+        </div>
+        <div class="metric-grid">
+          <div><strong data-count="8">0</strong><span>years hands-on R&D</span></div>
+          <div><strong data-count="10">0</strong><span>graphene/materials outputs</span></div>
+          <div><strong data-count="3">0</strong><span>ELECMI facility accesses</span></div>
+          <div><strong data-count="7">0</strong><span>h-index record</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="shell profile-grid" id="profile">
+      <article class="panel reveal span-2">
+        <p class="eyebrow">Professional positioning</p>
+        <h2>Full graphene value chain profile for R&D, foundry, metrology and device integration roles.</h2>
+        <p>
+          I work across the chain from CVD growth, transfer, heterostructure assembly and cleanroom patterning to device integration,
+          characterization, data interpretation and results dissemination. My materials portfolio includes CVD graphene, TBLG, GQDs,
+          CQDs, graphene foams, graphene/metal nanohybrids and 2D heterostructures such as MoS<sub>2</sub>- and YIG-related stacks.
+        </p>
+      </article>
+      <article class="panel reveal delay-1 compact-panel">
+        <p class="eyebrow">Target fit</p>
+        <h3>Graphene R&D · Process development · Wafer/device integration · Advanced metrology · Quality/failure analysis</h3>
+      </article>
+      <article class="panel reveal compact-panel">
+        <p class="eyebrow">Industry value</p>
+        <p>
+          I connect process variables, defects, contamination, interfaces and spectroscopy/microscopy data to identify device-relevant
+          performance issues and optimize reproducible workflows.
+        </p>
+      </article>
+      <article class="panel reveal delay-1 compact-panel">
+        <p class="eyebrow">Research value</p>
+        <p>
+          I translate graphene-derived nanomaterials into sensing, spintronic, neuromorphic, optoelectronic and electrochemical applications.
+        </p>
+      </article>
+      <article class="panel reveal delay-2 compact-panel">
+        <p class="eyebrow">Methods</p>
+        <p>
+          Raman, SEM, AFM, STM/STS, HRTEM, STEM-HAADF, EELS, XPS, UV-Vis, FTIR, electrochemistry, TDDFT/DFT and Python workflows.
+        </p>
+      </article>
+    </section>
+
+    <section class="shell" id="about">
+      <div class="section-head reveal">
+        <p class="eyebrow">About me</p>
+        <h2>From graphene growth to device-ready nanomaterials.</h2>
+      </div>
+      <div class="story-grid">
+        <article class="panel reveal">
+          <h3>Graphene-derived nanomaterials</h3>
+          <p>
+            My research focuses on synthesizing and characterizing innovative graphene-derived nanomaterials, primarily using CVD graphene
+            as a starting point. These materials show potential in water contaminant degradation, fluorescence-based ion detection,
+            efficient photoanodes and electrochemical glucose sensing.
+          </p>
+        </article>
+        <article class="panel reveal delay-1">
+          <h3>Twisted bilayer graphene</h3>
+          <p>
+            I developed twisted bilayer graphene from CVD graphene on Cu substrates using substrate chemical attack, enabling control over
+            electronic properties through rotation-angle-dependent structures.
+          </p>
+        </article>
+        <article class="panel reveal delay-2">
+          <h3>CQDs, GQDs and nanohybrids</h3>
+          <p>
+            My work includes direct ethanol electrooxidation on Ni foam electrodes, yielding ultra-small CQDs around 2.8 nm rich in oxygenated
+            groups for light-assisted dye degradation. Electrochemical exfoliation of 3D graphene on Ni foams produces GQDs with confined
+            electrons, UV-Visible absorption and emission. Functionalized GQDs enable Hg<sup>2+</sup> and Fe<sup>3+</sup> sensing in water and wine,
+            and they act as reducing agents for Au/Pt graphene nanohybrids used in electrocatalysis and glucose detection.
+          </p>
+        </article>
+        <article class="panel reveal delay-3">
+          <h3>Modeling and advanced characterization</h3>
+          <p>
+            I use TDDFT/DFT models to simulate GQD optoelectronic properties, emission, absorbance and quantum confinement. The materials are
+            characterized with advanced techniques such as HRTEM, EELS and STEM-HAADF to understand size, nanostructure and composition.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell" id="atlas">
+      <div class="section-head reveal">
+        <p class="eyebrow">Research atlas</p>
+        <h2>Explore the research atlas.</h2>
+        <p>Use the search bar to find projects by material, technique, device, facility or keyword. You can also select a topic button to narrow the cards, or choose “All” to reset the view.</p>
+      </div>
+      <div class="atlas-tools reveal delay-1">
+        <label class="search-wrap" for="atlasSearch">
+          <span>Search atlas</span>
+          <input id="atlasSearch" type="search" placeholder="Search: TBLG, EELS, cleanroom, Hg, YIG, glucose, Python..." />
+          <small class="search-help">Start typing to filter the project cards in real time.</small>
+        </label>
+        <div class="filter-bar" aria-label="Research atlas filters">
+          <button class="filter-chip active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="graphene">Graphene</button>
+          <button class="filter-chip" data-filter="quantum-dots">Quantum dots</button>
+          <button class="filter-chip" data-filter="devices">Devices</button>
+          <button class="filter-chip" data-filter="metrology">Metrology</button>
+          <button class="filter-chip" data-filter="simulation">Simulation</button>
+        </div>
+        <p class="result-count" id="atlasCount">8 cards shown</p>
+        <p class="result-count no-results" id="atlasEmpty" hidden>No matching cards. Try a broader keyword or select “All”.</p>
+      </div>
+      <div class="atlas-grid" id="projectGrid">
+        <article class="atlas-card reveal" data-tags="graphene process cvd transfer cleanroom wet transfer copper ni foam wafer device integration">
+          <span>CVD graphene · Process</span>
+          <h3>Growth, transfer and stack preparation</h3>
+          <p>Cu-foil and Ni-foam CVD graphene routes used as platforms for TBLG, GQDs/CQDs, graphene-metal nanohybrids and device-oriented workflows.</p>
+          <button class="open-card" data-title="CVD graphene platform" data-text="Experience includes custom CVD equipment, graphene growth on Cu foils and Ni foams, wet transfer, substrate chemical attack, cleaning, stack preparation and reproducibility-oriented process documentation.">Details</button>
+        </article>
+        <article class="atlas-card reveal" data-tags="graphene tblg twisted bilayer graphene rotation angle electronic structure transfer copper stm eels raman">
+          <span>TBLG · Electronic structure</span>
+          <h3>Twisted bilayer graphene</h3>
+          <p>TBLG synthesis/transfer protocols from CVD graphene on Cu through substrate chemical attack, targeting rotation-angle-dependent electronic tuning.</p>
+          <button class="open-card" data-title="Twisted bilayer graphene" data-text="This line connects CVD graphene, controlled transfer routes, rotated stacks, Raman and advanced microscopy/spectroscopy, including TEM-EELS and STM/STS campaigns.">Details</button>
+        </article>
+        <article class="atlas-card reveal" data-tags="quantum-dots gqd cqd graphene quantum dots carbon quantum dots photodegradation fluorescence sensing hg fe wine water">
+          <span>GQDs/CQDs · Sensing</span>
+          <h3>Fluorescent quantum dots</h3>
+          <p>Functional GQDs and CQDs for Hg2+/Fe3+ detection, water/wine analysis, dye photodegradation, optical response and confined-electron behavior.</p>
+          <button class="open-card" data-title="Graphene and carbon quantum dots" data-text="Includes functionalized GQDs for ion sensing, CQDs from ethanol electrooxidation, optical absorption/emission analysis and materials design guided by spectroscopy and modelling.">Details</button>
+        </article>
+        <article class="atlas-card reveal" data-tags="devices electrocatalysis glucose photoanodes au pt core shell nanohybrids sensing electrochemical">
+          <span>Devices · Electrochemistry</span>
+          <h3>Graphene-metal nanohybrids</h3>
+          <p>Au/Pt graphene nanohybrids and core-shell systems for electrocatalysis, non-enzymatic glucose detection and electroactive platforms.</p>
+          <button class="open-card" data-title="Graphene-metal nanohybrids" data-text="GQDs can act as reducing and stabilizing agents for metal-graphene nanohybrids, creating electroactive systems relevant for sensing and electrocatalysis.">Details</button>
+        </article>
+        <article class="atlas-card reveal" data-tags="devices spintronics neuromorphic yig mos2 hall bar gfet sputtering ion milling lithography">
+          <span>Device integration · 2D stacks</span>
+          <h3>Hall-bar and heterostructure workflows</h3>
+          <p>Exposure to graphene/YIG stacks, MoS2-related integration, Hall-bar/GFET-oriented layouts, sputtering, ion milling and direct-write lithography.</p>
+          <button class="open-card" data-title="Device integration" data-text="The device-oriented portfolio includes graphene/YIG, 2D material transfer, patterning, Hall-bar/GFET layouts and interface-aware characterization for spintronic and neuromorphic contexts.">Details</button>
+        </article>
+        <article class="atlas-card reveal" data-tags="metrology raman sem afm stm sts hrtrem stem haadf eels xps uv-vis ftir defects contamination interfaces">
+          <span>Metrology · Failure analysis</span>
+          <h3>Advanced characterization feedback</h3>
+          <p>Raman, SEM, AFM, STM/STS, HRTEM, STEM-HAADF, EELS, XPS, UV-Vis and FTIR used to diagnose defects, interfaces, crystallinity and reproducibility.</p>
+          <button class="open-card" data-title="Advanced metrology feedback" data-text="The metrology approach links growth and transfer history to defects, contamination, interfaces, chemical speciation, crystallinity, optical/electronic behavior and material reliability.">Details</button>
+        </article>
+        <article class="atlas-card reveal" data-tags="simulation dft tddft python quantum espresso orca data analysis ai assisted workflow gqd absorption emission eels">
+          <span>Simulation · AI workflow</span>
+          <h3>DFT/TDDFT and Python analysis</h3>
+          <p>Computational workflows to simulate GQD absorption/emission, interpret quantum confinement, compare with spectroscopy and guide material design.</p>
+          <button class="open-card" data-title="Simulation and data workflows" data-text="Experience includes Python, ORCA, Quantum ESPRESSO, DFT/TDDFT, plotting, data cleaning, process data interpretation and AI-assisted scientific workflows.">Details</button>
+        </article>
+        <article class="atlas-card reveal" data-tags="projects funding ultimate-i melon h2020 msca rise elecmi neoarm ccit ub lma zaragoza stm sts eels">
+          <span>EU projects · Facilities</span>
+          <h3>ULTIMATE-I, MELON and ELECMI campaigns</h3>
+          <p>H2020 MSCA-RISE work on graphene-based quantum materials and advanced sensing, plus competitive ELECMI accesses for TEM-EELS and UHV JT-STM/STS.</p>
+          <button class="open-card" data-title="Projects and facilities" data-text="Work includes ULTIMATE-I, MELON, NEOARM TEM-EELS at CCiT-UB and low-temperature UHV JT-STM/STS campaigns at LMA Zaragoza for TBLG, GQDs and graphene nanoribbons.">Details</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell" id="experience">
+      <div class="section-head reveal">
+        <p class="eyebrow">Professional experience</p>
+        <h2>Research, process development and teaching timeline.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <time>Sep. 2024 — Jul. 2026</time>
+          <div>
+            <h3>Postdoctoral Research Fellow / Early Researcher, H2020 MSCA-RISE</h3>
+            <p><strong>INMA (CSIC/UNIZAR), Zaragoza, Spain.</strong> Graphene/device integration for ULTIMATE-I and MELON, combining graphene-based nanomaterials and heterostructures with MoS2 and YIG, cleanroom processing, sputtering, ion milling, Hall-bar/GFET-oriented workflows, Raman, SEM, STM/STS, HRTEM, STEM-HAADF, EELS, XPS, UV-Vis and FTIR feedback.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>Apr. 2018 — Aug. 2024</time>
+          <div>
+            <h3>Doctoral Research Fellow — Graphene-Derived Nanomaterials & Devices</h3>
+            <p><strong>INIFTA (CONICET-UNLP), Buenos Aires, Argentina.</strong> Designed, assembled, maintained and operated custom CVD equipment; developed CVD graphene, TBLG, GQDs, CQDs and graphene/metal nanohybrids; worked on sensing, photoanodes, photodegradation, electrocatalysis, glucose detection and TDDFT/DFT/Python workflows.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>Sep. 2022 — Nov. 2022</time>
+          <div>
+            <h3>H2020 Marie Skłodowska-Curie RISE Secondment</h3>
+            <p><strong>Universidad de Zaragoza, Spain.</strong> Advanced characterization of graphene nanostructures using HRTEM and EELS; synthesis/characterization of GQDs; development of transfer and cleaning procedures for ultra-clean graphene surfaces.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>Feb. 2021 — Mar. 2021</time>
+          <div>
+            <h3>Teaching Assistant — Summer School</h3>
+            <p><strong>Universidad Nacional de La Plata.</strong> Two-Dimensional Nanomaterials: Graphene and Others — Production, Properties and Applications.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>Aug. 2018 — Aug. 2020</time>
+          <div>
+            <h3>Teaching Assistant — Nanotechnology & Nanomaterials</h3>
+            <p><strong>Universidad Nacional de La Plata.</strong> Teaching support, student guidance and educational material for nanotechnology and nanomaterials courses.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>Nov. 2018 — Dec. 2018</time>
+          <div>
+            <h3>Visiting Researcher</h3>
+            <p><strong>INFIQC, Córdoba, Argentina.</strong> XPS and Raman characterization of graphene nanostructures.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>Mar. 2016 — Mar. 2017</time>
+          <div>
+            <h3>Research Intern</h3>
+            <p><strong>INIFTA, La Plata, Argentina.</strong> Research projects in nanomaterials and electronics.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>Feb. 2015 — Mar. 2015</time>
+          <div>
+            <h3>Summer Intern</h3>
+            <p><strong>Instituto Balseiro, Bariloche, Argentina.</strong> Photonic and microwave device design.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell" id="publications">
+      <div class="section-head reveal">
+        <p class="eyebrow">Research, projects and publications</p>
+        <h2>Selected peer-reviewed outputs and graphene-oriented work.</h2>
+      </div>
+      <div class="pub-tools reveal delay-1">
+        <label class="search-wrap" for="pubSearch">
+          <span>Search publications</span>
+          <input id="pubSearch" type="search" placeholder="Try: GQDs, Hg, ethanol, machine learning, glucose, TBLG..." />
+        </label>
+        <p class="result-count" id="pubCount">9 publications shown</p>
+      </div>
+      <div class="pub-list" id="pubList">
+        <article class="pub-item reveal" data-pub="graphene quantum dots stacking configuration preserved cvd graphene jpcc 2024 10.1021 acs.jpcc.3c06871">
+          <span>2024 · Journal of Physical Chemistry C</span>
+          <h3>Stacking-Configuration-Preserved Graphene Quantum Dots Electrochemically Obtained from CVD Graphene</h3>
+          <p>Barrionuevo, S. D.; Fioravanti, F.; Nuñez, J. M.; Muñeton Arboleda, D.; Lacconi, G. I.; Bellino, M. G.; Aguirre, M. H.; Ibañez, F. J. DOI: 10.1021/acs.jpcc.3c06871.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="iron fe3 alcoholic beverages diphenylcarbazone functionalized graphene quantum dots talanta open 2023 10.1016 j.talo.2023.100202">
+          <span>2023 · Talanta Open</span>
+          <h3>Highly Selective and Sensitive Fluorescent Determination of Fe3+ within Alcoholic Beverages with 1,5-Diphenylcarbazone-Functionalized Graphene Quantum Dots</h3>
+          <p>Llaver, M.; Barrionuevo, S. D.; Troiani, H.; Wuilloud, R. G.; Ibañez, F. J. DOI: 10.1016/j.talo.2023.100202.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="carbon quantum dots electrooxidation ethanol photodegradation dyes journal materials chemistry c 2023 10.1039 d3tc01774e">
+          <span>2023 · Journal of Materials Chemistry C</span>
+          <h3>Efficient Generation of Highly Crystalline Carbon Quantum Dots via Electrooxidation of Ethanol for Rapid Photodegradation of Organic Dyes</h3>
+          <p>Barrionuevo, S. D.; Fioravanti, F.; Nuñez, J. M.; Llaver, M.; Aguirre, M. H.; Bellino, M. G.; Lacconi, G. I.; Ibañez, F. J. DOI: 10.1039/D3TC01774E.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="modeling graphene quantum dots pandemic times journal chemical education 2022 10.1021 acs.jchemed.1c00879">
+          <span>2022 · Journal of Chemical Education</span>
+          <h3>Think Outside the Lab: Modeling Graphene Quantum Dots in Pandemic Times</h3>
+          <p>Melia, L. F.; Barrionuevo, S. D.; Ibañez, F. J. DOI: 10.1021/acs.jchemed.1c00879.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="mercury hg2 graphene quantum dots real samples anal chim acta 2022 10.1016 j.aca.2022.340422">
+          <span>2022 · Analytica Chimica Acta</span>
+          <h3>Functionalized Graphene Quantum Dots Obtained from Graphene Foams Used for Highly Selective Detection of Hg2+ in Real Samples</h3>
+          <p>Llaver, M.; Barrionuevo, S. D.; Prieto, E.; Wuilloud, R. G.; Ibañez, F. J. DOI: 10.1016/j.aca.2022.340422.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="graphene carbon dots photoanodes enhanced performance acs applied nano materials 2021 10.1021 acsanm.1c01295">
+          <span>2021 · ACS Applied Nano Materials</span>
+          <h3>Graphene and Carbon Dots for Photoanodes with Enhanced Performance</h3>
+          <p>Messina, M. M.; Barrionuevo, S. D.; Coustet, M. E.; Kreuzer, M. P.; Saccone, F. D.; dos Santos Claro, P. C.; Ibañez, F. J. DOI: 10.1021/acsanm.1c01295.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="water graphene nanopore interplay materials chemistry physics 2019 10.1016 j.matchemphys.2019.05.005">
+          <span>2019 · Materials Chemistry and Physics</span>
+          <h3>Water-Graphene Environment Modulated by Coupled Nanopore Interplay</h3>
+          <p>Gimenez, R.; Barrionuevo, S. D.; Berli, C. L. A.; Ibañez, F. J.; Bellino, M. G. DOI: 10.1016/j.matchemphys.2019.05.005.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="machine learning fluorescent graphene quantum dots mercury iron water environmental science nano 2024 10.1039 d3en00702b">
+          <span>2024 · Environmental Science: Nano</span>
+          <h3>Fluorescent Graphene Quantum Dots-Enhanced Machine Learning for Accurate Detection and Quantification of Hg2+ and Fe3+ in Real Water Samples</h3>
+          <p>Llaver, M.; Barrionuevo, S. D.; Nuñez, J. M. M.; Chapana, A.; Wuilloud, R. G.; Aguirre, M. H.; Ibañez, F. J. DOI: 10.1039/D3EN00702B.</p>
+        </article>
+        <article class="pub-item reveal" data-pub="gqds spontaneous synthesis core shell au graphene nanohybrid glucose electroactive chemistry european journal 2025 10.1002 chem.202501997">
+          <span>2025 · Chemistry — A European Journal</span>
+          <h3>Graphene Quantum Dots Drive Spontaneous Metal Reduction to Form Stable and Electroactive Core-Shell Nanocolloids</h3>
+          <p>Ventre, J.; Barrionuevo, S. D.; Nuñez, J. M.; Renna, A.; Aguirre, M. H.; Bellino, M. G.; Ibañez, F. J. DOI: 10.1002/chem.202501997.</p>
+        </article>
+      </div>
+      <p class="scholar-link reveal">More information: <a href="https://scholar.google.fr/citations?user=xZld-8MAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a>.</p>
+    </section>
+
+    <section class="shell grid-2" id="skills">
+      <article class="panel reveal">
+        <p class="eyebrow">Education</p>
+        <ul class="clean-list">
+          <li>Doctorate in Engineering, Materials Engineering — Universidad Nacional de La Plata, Argentina. PhD awarded Jul. 2024. Thesis: TBLG, GQDs and graphene-metal nanohybrids for advanced applications.</li>
+          <li>Electronic Engineering — Universidad Nacional de La Plata, Argentina, 2017.</li>
+          <li>Electronic Technician — Technical High School EPT No. 748, Trelew, Argentina, 2011.</li>
+          <li>Google Data Analytics Professional Certificate, Python for Data Science, AI & Development, R Data Analysis and AI-assisted simulation/scientific software workflows.</li>
+          <li>Machine Learning Specialization, Stanford University, 2024.</li>
+          <li>Languages: Spanish native; English professional working proficiency.</li>
+        </ul>
+      </article>
+      <article class="panel reveal delay-1">
+        <p class="eyebrow">Skills and expertise</p>
+        <div class="skill-cloud">
+          <span>Graphene-derived nanomaterials</span><span>CVD synthesis</span><span>2D materials</span><span>TBLG</span><span>GQDs/CQDs</span><span>Cleanroom processing</span><span>Direct-write photolithography</span><span>Sputtering</span><span>Ion milling</span><span>Hall-bar/GFET layouts</span><span>Raman</span><span>SEM/AFM</span><span>HRTEM</span><span>STEM-HAADF/EELS</span><span>STM/STS</span><span>XPS</span><span>UV-Vis/FTIR</span><span>Electrochemistry</span><span>Python</span><span>MATLAB</span><span>C/C++</span><span>ORCA</span><span>Quantum ESPRESSO</span><span>TDDFT/DFT</span><span>Data analysis</span><span>DoE-aware planning</span><span>Root-cause analysis</span><span>Technical reporting</span><span>Project management</span><span>Team leadership</span><span>Innovation</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="shell grid-2" id="achievements">
+      <article class="panel reveal">
+        <p class="eyebrow">Achievements</p>
+        <p>
+          I have produced nanomaterials for electronic, environmental and analytical challenges using nanotechnology. I developed synthesis and
+          characterization routes for graphene, TBLG, GQDs, CQDs and nanohybrids, contributing to device-oriented graphene materials and precise
+          control over structure-property relationships.
+        </p>
+      </article>
+      <article class="panel reveal delay-1">
+        <p class="eyebrow">Selected projects, funding and impact</p>
+        <ul class="clean-list">
+          <li>ULTIMATE-I H2020 MSCA-RISE: graphene-based quantum materials, device integration and advanced sensing systems.</li>
+          <li>MELON H2020 MSCA-RISE: ultra-clean graphene layers and hybrid Au/Pt-graphene nanostructures for sensing/electrochemical platforms.</li>
+          <li>ELECMI facility campaigns: TEM-EELS using NEOARM cFEG TEM at CCiT-UB and low-temperature UHV JT-STM/STS at LMA Zaragoza.</li>
+          <li>National funding and awards: CONICET doctoral fellowship, CONICET postdoctoral fellowship, PICT/FONCYT/ANPCyT projects, INNOVAR 2017 and PREMIOS INNOVACION UNLP 2017.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="shell contact-section" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Available for graphene R&D, process engineering, advanced metrology and device-integration opportunities.</h2>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:santi.barri@unizar.es">santi.barri@unizar.es</a>
+          <a class="btn secondary" href="mailto:sbarrionuevo@inifta.unlp.edu.ar">sbarrionuevo@inifta.unlp.edu.ar</a>
+          <a class="btn tertiary" href="https://www.linkedin.com/in/ing-santiago-d-barrionuevo" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn tertiary" href="https://orcid.org/0000-0002-4870-343X" target="_blank" rel="noopener">ORCID</a>
+        </div>
+        <p class="contact-note">Zaragoza, Spain · +34 666 788 608 · drsantiagobarrionuevo.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Santiago D. Barrionuevo. All rights reserved. Research portfolio, images and written content by Santiago D. Barrionuevo.</p>
+  </footer>
+
+  <div class="modal" id="infoModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <h2 id="modalTitle">Details</h2>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
