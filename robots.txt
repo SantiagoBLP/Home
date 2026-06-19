@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://drsantiagobarrionuevo.com/sitemap.xml
+Sitemap: https://www.drsantiagobarrionuevo.com/sitemap.xml
