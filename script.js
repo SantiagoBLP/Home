@@ -1,4 +1,3 @@
-document.documentElement.classList.add('js-enabled');
 const qs = (selector, parent = document) => parent.querySelector(selector);
 const qsa = (selector, parent = document) => [...parent.querySelectorAll(selector)];
 
@@ -33,10 +32,6 @@ if ('IntersectionObserver' in window) {
 } else {
   revealElements.forEach((el) => el.classList.add('visible'));
 }
-// Safety fallback: never leave content invisible if IntersectionObserver/cache behaves oddly.
-window.setTimeout(() => {
-  revealElements.forEach((el) => el.classList.add('visible'));
-}, 700);
 
 // Counters
 const countElements = qsa('[data-count]');
@@ -103,8 +98,6 @@ function updateAtlas() {
   if (atlasCount) {
     atlasCount.textContent = `${visible} card${visible === 1 ? '' : 's'} shown`;
   }
-  const atlasEmpty = qs('#atlasEmpty');
-  if (atlasEmpty) atlasEmpty.hidden = visible !== 0;
 }
 
 qsa('.filter-chip').forEach((chip) => {
@@ -148,7 +141,6 @@ function closeModal() {
   if (!modal) return;
   modal.classList.remove('is-open');
   modal.setAttribute('aria-hidden', 'true');
-  document.body.classList.remove('modal-open');
 }
 qsa('.open-card').forEach((button) => {
   button.addEventListener('click', () => {
@@ -157,17 +149,9 @@ qsa('.open-card').forEach((button) => {
     modalText.textContent = button.dataset.text || '';
     modal.classList.add('is-open');
     modal.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('modal-open');
-    const closeButton = qs('.modal-close', modal);
-    if (closeButton) closeButton.focus();
   });
 });
 qsa('[data-close]').forEach((button) => button.addEventListener('click', closeModal));
-if (modal) {
-  modal.addEventListener('click', (event) => {
-    if (event.target === modal) closeModal();
-  });
-}
 window.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeModal();
 });

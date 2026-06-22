@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Build: Santiago Home final ready v8 - cache-busted production -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Santiago D. Barrionuevo — PhD in Engineering, graphene R&D specialist focused on process development, 2D materials, cleanroom device integration and advanced characterization." />
-  <meta name="keywords" content="Santiago Barrionuevo, graphene, CVD graphene, graphene quantum dots, twisted bilayer graphene, 2D materials, cleanroom fabrication, EELS, STM, device integration, process engineering" />
+  <meta name="description" content="Santiago D. Barrionuevo — PhD in Engineering, graphene process engineer, 2D materials researcher, device integration and advanced characterization." />
+  <meta name="keywords" content="Santiago Barrionuevo, graphene, CVD graphene, graphene quantum dots, twisted bilayer graphene, 2D materials, cleanroom, EELS, STM, device integration, defect metrology, Visual Defect Analyzer 2026" />
   <meta name="theme-color" content="#071720" />
   <meta property="og:title" content="Santiago D. Barrionuevo | Graphene Process Engineering & 2D Materials" />
   <meta property="og:description" content="Portfolio of Santiago D. Barrionuevo: graphene R&D, process development, cleanroom/device integration and advanced characterization." />
-  <meta property="og:image" content="https://www.drsantiagobarrionuevo.com/assets/santiago-barrionuevo-profile.png" />
-  <meta property="og:url" content="https://www.drsantiagobarrionuevo.com" />
-  <link rel="canonical" href="https://www.drsantiagobarrionuevo.com" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:image" content="assets/profile.png" />
   <meta property="og:type" content="website" />
-  <title>Santiago D. Barrionuevo | Graphene R&D, Process Engineering & 2D Materials</title>
+  <title>Santiago D. Barrionuevo | Graphene Process Engineering</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.v8.css?v=20260619" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <canvas id="fieldCanvas" aria-hidden="true"></canvas>
@@ -26,17 +22,18 @@
 
   <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="Santiago D. Barrionuevo home">
-      <img src="assets/santiago-barrionuevo-profile.png" alt="Portrait of Santiago D. Barrionuevo" />
-      <span><strong>Santiago D. Barrionuevo</strong><small>Graphene R&D · Process · Devices</small></span>
+      <img src="assets/profile.png" alt="Portrait of Santiago D. Barrionuevo" />
+      <span><strong>Santiago D. Barrionuevo</strong><small>Graphene R&D · Metrology · Devices</small></span>
     </a>
     <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="Main navigation">
       <a href="#profile">Profile</a>
-      <a href="#about">About</a>
+      <a href="#legacy-about">About</a>
       <a href="#atlas">Research atlas</a>
       <a href="#experience">Experience</a>
       <a href="#publications">Publications</a>
       <a href="#skills">Skills</a>
+      <a href="#visual-defect-analyzer">VDA 2026</a>
       <a href="#contact">Contact</a>
       <a class="nav-cta" href="cv.html">CV</a>
     </nav>
@@ -46,21 +43,22 @@
     <section class="hero shell">
       <div class="hero-copy reveal">
         <p class="eyebrow">Pioneering graphene-derived nanomaterials for novel electronics applications</p>
-        <h1>Graphene process engineering for 2D materials, advanced metrology and device-ready platforms.</h1>
+        <h1>Graphene process engineering, from carbon architectures to device-ready platforms.</h1>
         <p class="lead">
-          PhD in Engineering and Electronic Engineer working across CVD graphene, twisted bilayer graphene,
-          graphene/carbon quantum dots, cleanroom workflows, advanced metrology, simulation, AI-assisted analysis and technical reporting.
+          PhD in Engineering, Electronic Engineer and AI developer working across CVD graphene, twisted bilayer graphene,
+          graphene/carbon quantum dots, cleanroom workflows, advanced metrology, simulation and technical reporting.
         </p>
         <div class="hero-actions">
           <a class="btn primary" href="#atlas">Explore research atlas</a>
           <a class="btn secondary" href="Santiago_Barrionuevo_CV.pdf" target="_blank" rel="noopener">Download PDF CV</a>
           <a class="btn tertiary" href="cv.html">Open web CV</a>
+          <a class="btn app-btn" href="#visual-defect-analyzer">Test Visual Defect Analyzer 2026</a>
         </div>
       </div>
 
       <aside class="identity-card reveal delay-1" aria-label="Profile summary card">
         <div class="photo-frame">
-          <img src="assets/santiago-barrionuevo-profile.png" alt="Santiago D. Barrionuevo" />
+          <img src="assets/profile.png" alt="Santiago D. Barrionuevo" />
         </div>
         <div class="identity-meta">
           <p class="eyebrow">Current profile</p>
@@ -74,6 +72,74 @@
           <div><strong data-count="7">0</strong><span>h-index record</span></div>
         </div>
       </aside>
+    </section>
+
+
+    <section class="shell app-launch" id="visual-defect-analyzer">
+      <div class="section-head reveal">
+        <p class="eyebrow">New industrial metrology software</p>
+        <h2>Test my new app: Visual Defect Analyzer 2026.</h2>
+        <p>
+          A Windows-testable application for calibrated defect detection, visual inspection, SQL traceability,
+          wafer-yield scenario projection and process-quality reporting in advanced materials inspection workflows.
+        </p>
+      </div>
+
+      <div class="app-hero-card panel reveal delay-1">
+        <div class="app-copy">
+          <span class="app-badge">v1.0.0 · Industrial metrology prototype</span>
+          <h3>From atom-scale image inspection to engineering review outputs.</h3>
+          <p>
+            Visual Defect Analyzer 2026 demonstrates how a Python-based metrology workflow can connect image upload,
+            calibrated defect detection, lattice inspection, visual review, SQL logging, defect manifests and wafer-yield
+            scenario reporting in one practical tool.
+          </p>
+          <div class="app-action-row">
+            <a class="btn primary" href="https://github.com/SantiagoBLP/visual-defect-analyzer-2026/releases/download/v1.0.0/Visual_Defect_Analyzer_2026_v1.0.0.zip" target="_blank" rel="noopener">Download Windows demo</a>
+            <a class="btn secondary" href="https://github.com/SantiagoBLP/visual-defect-analyzer-2026" target="_blank" rel="noopener">View GitHub repository</a>
+            <a class="btn tertiary" href="https://github.com/SantiagoBLP/visual-defect-analyzer-2026/releases/tag/v1.0.0" target="_blank" rel="noopener">Release v1.0.0</a>
+          </div>
+        </div>
+        <div class="app-metrics">
+          <div><strong>Python</strong><span>OpenCV · scikit-image · pandas · SQLite</span></div>
+          <div><strong>Metrology</strong><span>defects · density · yield scenario · reports</span></div>
+          <div><strong>Workflow</strong><span>Windows local app · downloadable outputs</span></div>
+        </div>
+      </div>
+
+      <div class="app-showcase-grid">
+        <a class="app-showcase main reveal" href="assets/visual-defect-analyzer-2026/vda-dashboard.png" target="_blank" rel="noopener">
+          <img src="assets/visual-defect-analyzer-2026/vda-dashboard.png" alt="Visual Defect Analyzer 2026 application dashboard" />
+          <span>Application dashboard with engineering status and calibrated metrics</span>
+        </a>
+        <a class="app-showcase reveal delay-1" href="assets/visual-defect-analyzer-2026/vda-industrial-review-sheet.png" target="_blank" rel="noopener">
+          <img src="assets/visual-defect-analyzer-2026/vda-industrial-review-sheet.png" alt="Industrial defect review sheet generated by Visual Defect Analyzer 2026" />
+          <span>Industrial defect review sheet with overlay, critical candidates and yield summary</span>
+        </a>
+        <a class="app-showcase reveal delay-2" href="assets/visual-defect-analyzer-2026/vda-atomic-lattice-example.png" target="_blank" rel="noopener">
+          <img src="assets/visual-defect-analyzer-2026/vda-atomic-lattice-example.png" alt="Atomic lattice defect example used in Visual Defect Analyzer 2026" />
+          <span>Atom-column lattice example used for controlled defect detection</span>
+        </a>
+      </div>
+
+      <div class="story-grid app-feature-panels">
+        <article class="panel reveal">
+          <h3>Defect detection</h3>
+          <p>Point vacancies, extra peaks, displaced sites, line features and uploaded-image anomaly candidates for SEM/TEM/STEM/AFM-style images.</p>
+        </article>
+        <article class="panel reveal delay-1">
+          <h3>Traceability</h3>
+          <p>Each run produces a defect manifest, engineering report, downloadable outputs and SQL-ready inspection records.</p>
+        </article>
+        <article class="panel reveal delay-2">
+          <h3>Yield scenario</h3>
+          <p>Inspection findings are translated into defect density, review priority and wafer-level yield-scenario indicators.</p>
+        </article>
+        <article class="panel reveal delay-3">
+          <h3>Industrial roadmap</h3>
+          <p>The prototype is designed to evolve toward real inspection datasets, expert labels, gauge R&amp;R, SPC monitoring and model validation.</p>
+        </article>
+      </div>
     </section>
 
     <section class="shell profile-grid" id="profile">
@@ -111,10 +177,10 @@
       </article>
     </section>
 
-    <section class="shell" id="about">
+    <section class="shell" id="legacy-about">
       <div class="section-head reveal">
         <p class="eyebrow">About me</p>
-        <h2>From graphene growth to device-ready nanomaterials.</h2>
+        <h2>The original research story, now integrated into the new page.</h2>
       </div>
       <div class="story-grid">
         <article class="panel reveal">
@@ -154,14 +220,13 @@
     <section class="shell" id="atlas">
       <div class="section-head reveal">
         <p class="eyebrow">Research atlas</p>
-        <h2>Explore the research atlas.</h2>
-        <p>Use the search bar to find projects by material, technique, device, facility or keyword. You can also select a topic button to narrow the cards, or choose “All” to reset the view.</p>
+        <h2>Searchable project map.</h2>
+        <p>Use the search box and chips together. This version fixes the atlas filtering logic.</p>
       </div>
       <div class="atlas-tools reveal delay-1">
         <label class="search-wrap" for="atlasSearch">
           <span>Search atlas</span>
-          <input id="atlasSearch" type="search" placeholder="Search: TBLG, EELS, cleanroom, Hg, YIG, glucose, Python..." />
-          <small class="search-help">Start typing to filter the project cards in real time.</small>
+          <input id="atlasSearch" type="search" placeholder="Try: TBLG, EELS, cleanroom, Hg, YIG, glucose, Python..." />
         </label>
         <div class="filter-bar" aria-label="Research atlas filters">
           <button class="filter-chip active" data-filter="all">All</button>
@@ -172,7 +237,6 @@
           <button class="filter-chip" data-filter="simulation">Simulation</button>
         </div>
         <p class="result-count" id="atlasCount">8 cards shown</p>
-        <p class="result-count no-results" id="atlasEmpty" hidden>No matching cards. Try a broader keyword or select “All”.</p>
       </div>
       <div class="atlas-grid" id="projectGrid">
         <article class="atlas-card reveal" data-tags="graphene process cvd transfer cleanroom wet transfer copper ni foam wafer device integration">
@@ -229,7 +293,7 @@
     <section class="shell" id="experience">
       <div class="section-head reveal">
         <p class="eyebrow">Professional experience</p>
-        <h2>Research, process development and teaching timeline.</h2>
+        <h2>Research, process and teaching timeline.</h2>
       </div>
       <div class="timeline">
         <article class="timeline-item reveal">
@@ -294,7 +358,7 @@
     <section class="shell" id="publications">
       <div class="section-head reveal">
         <p class="eyebrow">Research, projects and publications</p>
-        <h2>Selected peer-reviewed outputs and graphene-oriented work.</h2>
+        <h2>Selected outputs from the previous website and updated CV.</h2>
       </div>
       <div class="pub-tools reveal delay-1">
         <label class="search-wrap" for="pubSearch">
@@ -409,7 +473,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 Santiago D. Barrionuevo. All rights reserved. Research portfolio, images and written content by Santiago D. Barrionuevo.</p>
+    <p>© 2026 Santiago D. Barrionuevo. Static GitHub Pages portfolio.</p>
   </footer>
 
   <div class="modal" id="infoModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
@@ -421,6 +485,6 @@
     </div>
   </div>
 
-  <script src="script.v8.js?v=20260619"></script>
+  <script src="script.js"></script>
 </body>
 </html>
